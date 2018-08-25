@@ -21,7 +21,10 @@ InelliJ側
 ```txt
 プラグインの追加先は、
 
+# IntelliJ CE 2017.2.6
 build/distributions/ijaas-0.1.zip
+# IntelliJ CE 2017.2.7
+build2/distributions/ijaas-0.1.zip
 
 です。
 ```
