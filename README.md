@@ -6,6 +6,25 @@ ijaasのビルドが完了したプロジェクト
 
 https://www.jetbrains.com/idea/download/previous.html
 
-InteliJは2017.2.7現在を使います。
+※ InteliJは2017.2.7現在を使います。
 
-Vim8はvim-kaoriyaを私は使っています。
+InelliJ側
+
+```txt
+プラグインの追加先は、
+
+build/distributions/ijaas-0.1.zip
+
+です。
+```
+
+Vim側
+
+```vim
+.vimrc
+
+set runtimepath+=~/.vim/build_ijaas/vim
+
+```
+
+※ Vim8はvim-kaoriyaを使います。
