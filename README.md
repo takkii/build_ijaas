@@ -8,6 +8,14 @@ https://www.jetbrains.com/idea/download/previous.html
 
 ※ InteliJは2017.2.7現在を使います。
 
+クローン設定
+
+```txt
+cd ~/.vim
+
+git clone https://github.com/takkii/build_ijaas.git
+```
+
 InelliJ側
 
 ```txt
