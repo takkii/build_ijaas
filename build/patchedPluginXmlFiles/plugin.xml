@@ -1,0 +1,13 @@
+<idea-plugin>
+  <version>0.1</version>
+  <idea-version since-build="171.4694" until-build="172.*"/>
+  <id>com.google.devtools.intellij.ijaas</id>
+  <name>ijaas</name>
+  <description>IntelliJ as a Service</description>
+  <depends>com.intellij.modules.platform</depends>
+  <application-components>
+    <component>
+      <implementation-class>com.google.devtools.intellij.ijaas.IjaasApplicationComponent</implementation-class>
+    </component>
+  </application-components>
+</idea-plugin>
