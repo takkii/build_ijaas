@@ -1,3 +1,6 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)[![GitHub release](https://img.shields.io/github/release/takkii/build_ijaas.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/build_ijaas.svg?style=flat)](GitHub)
+
+
 # build_ijaas
 
 ijaasのビルドが完了したプロジェクト
