@@ -9,36 +9,40 @@ ijaasのビルドが完了したプロジェクト
 
 https://www.jetbrains.com/idea/download/previous.html
 
-※ InteliJは2017.2.7現在を使います。
+※ IntelliJは2017.2.7現在を使います。
 
-クローン設定
+設定
 
 ```txt
+
 cd ~/.vim
 
 git clone https://github.com/takkii/build_ijaas.git
+
 ```
 
-InelliJ側
+InelliJ
 
 ```txt
-プラグインの追加先は、
+
+プラグインの追加
 
 # IntelliJ CE 2017.2.6
 build/distributions/ijaas-0.1.zip
+
 # IntelliJ CE 2017.2.7
 build2/distributions/ijaas-0.1.zip
 
-です。
 ```
 
-Vim側
+Vims
 
 ```vim
+
 .vimrc
 
 set runtimepath+=~/.vim/build_ijaas/vim
 
 ```
 
-※ Vim8はvim-kaoriyaを使います。
+※ 例を挙げると、WindowsでVim8を使うなら、kaoriya-vimを使います。
